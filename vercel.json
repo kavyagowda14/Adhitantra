@@ -1,0 +1,10 @@
+{
+    "buildCommand": "cd Adhitantra_Project && npm install && npm run build",
+    "outputDirectory": "Adhitantra_Project/dist",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
