@@ -131,7 +131,7 @@ export default function RegistrationForm() {
       } else {
         throw new Error("Failed to submit form.");
       }
-    } catch (err) {
+    } catch (_err) {
       setErrorMsg("Something went wrong while submitting. Please try again.");
     } finally {
       setIsSubmitting(false);
